@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f5f4f4;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#section_input {
+  padding: 300px 0 40px 0;
+}
+
+#todo_input {
+  width: 250px;
+  padding: 6px 8px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  outline: none;
+  border: 2px solid #e7e6e6;
+}
+
+#todo_input:focus {
+  border-color: rgb(170, 206, 253);
+}
+
+#input_button {
+  background-color: rgb(103, 103, 247);
+  border-radius: 6px;
+  padding: 4px 8px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+#todo_list {
+  list-style-type: none;
+  margin: 0 auto;
+  max-width: 270px;
+}
+
+#todo_list li {
+  margin: 10px auto;
+  background-color: rgb(223, 223, 223);
+  padding: 5px 0;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  max-width: 230px;
+}
